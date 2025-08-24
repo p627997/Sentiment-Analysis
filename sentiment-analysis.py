@@ -11,10 +11,10 @@ for sentence in texts:
     sentiment = blob.sentiment.polarity
 
     if sentiment > 0:
-        result = "Positive"
+        result = "Positive 🙂"
     elif sentiment < 0:
-        result = "Negative"
+        result = "Negative 😞"
     else:
-        result = "Neutral"
+        result = "Neutral 😐"
 
     print(f"Text: {sentence}\nSentiment:{result}\n")
